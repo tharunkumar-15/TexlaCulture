@@ -39,14 +39,14 @@ const useStyles = makeStyles((theme) => ({
   companyNameText: {
     color: "#2b49bd",
     fontWeight: "bold ",
-    fontSize: "25px ",
+    fontSize: "26px ",
     border: "4px solid #2b49bd",
     padding: "6px 5px",
     marginRight: "5px",
   },
   culturetext: {
     color: "#2b49bd",
-    fontSize: "25px",
+    fontSize: "26px",
     fontWeight:"bold",
     marginTop:"10px"
   },
@@ -71,10 +71,10 @@ function Sidenav() {
       >
         <div className={classes.companyname}>
           <div className={classes.companylogocontainer}>
-          <Typography variant="h6" className={classes.companyNameText}>
+          <Typography variant="h1" className={classes.companyNameText}>
             TEXLA
           </Typography>
-          <Typography variant="h6" className={classes.culturetext}>CULTURE</Typography>
+          <Typography variant="h1" className={classes.culturetext}>CULTURE</Typography>
           </div>
         </div>
         <Toolbar />
@@ -91,7 +91,7 @@ function Sidenav() {
             </ListItemText>
             <ChevronRightIcon
               className={classes.rotatedIcon}
-              sx={{ color: "#009688", ":hover": { color: "#000" } }}
+              sx={{ color: "gray", ":hover": { color: "#000" } }}
             />
           </ListItem>
           <ListItem button>
@@ -101,7 +101,7 @@ function Sidenav() {
             <ListItemText>
               <Typography variant="h6" style={{ fontSize: "15px", fontWeight: "bold" }}>Companies</Typography>
             </ListItemText>
-            <ChevronRightIcon sx={{ color: "#009688", ":hover": { color: "#000" } }} />
+            <ChevronRightIcon sx={{ color: "gray", ":hover": { color: "#000" } }} />
           </ListItem>
           <ListItem button>
             <ListItemIcon>
@@ -110,7 +110,7 @@ function Sidenav() {
             <ListItemText>
               <Typography variant="h6" style={{ fontSize: "15px", fontWeight: "bold" }}>Support & Tickets</Typography>
             </ListItemText>
-            <ChevronRightIcon sx={{ color: "#009688", ":hover": { color: "#000" } }} />
+            <ChevronRightIcon sx={{ color: "gray", ":hover": { color: "#000" } }} />
           </ListItem>
           <ListItem button>
             <ListItemIcon>
@@ -119,7 +119,7 @@ function Sidenav() {
             <ListItemText>
               <Typography variant="h6" style={{ fontSize: "15px", fontWeight: "bold" }}>User Admins</Typography>
             </ListItemText>
-            <ChevronRightIcon sx={{ color: "#009688", ":hover": { color: "#000" } }} />
+            <ChevronRightIcon sx={{ color: "gray", ":hover": { color: "#000" } }} />
           </ListItem>
         </List>
       </Drawer>

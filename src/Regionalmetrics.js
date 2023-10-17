@@ -75,14 +75,14 @@ const useStyles = makeStyles({
   southdeatils: {
     position: "absolute",
     top: "360px",
-    right: "300px",
+    right: "280px",
     border: "2px solid #cbd1d7",
     padding: "10px",
     borderRadius: "10px",
   },
   westdeatils: {
     position: "absolute",
-    top: "280px",
+    top: "270px",
     right: "50px",
     border: "2px solid #cbd1d7",
     padding: "10px",
